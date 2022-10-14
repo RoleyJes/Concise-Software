@@ -1,10 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700;800&display=swap');
 
 :root {
-  /* Colors */
   --white: rgb(255, 255, 255);
-  --gray-700: #374151;
-
   --primary-100: rgb(242, 247, 251);
   --primary-200: rgb(228, 240, 248);
   --primary-300: rgb(199, 224, 242);
@@ -27,11 +24,21 @@
   --bird-blue-grey-900: rgb(80, 92, 101);
   --bird-blue-grey-1000: rgb(56, 65, 71);
 
+  --gray-700: #374151;
+  --pink-variant: rgba(253, 240, 221, 1);
+  --blue-variant1: rgba(220, 249, 232, 1);
+  --blue-variant2: rgba(220, 233, 249, 1);
+  --purple-variant: rgba(236, 220, 249, 1);
+
   --btn-gradient: linear-gradient(
     104.8deg,
     rgba(38, 192, 228, 0) -65.62%,
     #3a82d7 61.86%
   );
+
+  /* border-radius */
+  --border-radius8: 8px;
+  --border-radius4: 4px;
 }
 
 body {
@@ -43,6 +50,7 @@ a {
   text-decoration: none;
 }
 
+/* NAVBAR */
 .pro_nav {
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
   background-color: var(--white);
@@ -61,6 +69,7 @@ a {
   color: var(--gray-700);
 }
 
+/*---------------- General Classes ------------------*/
 .gradient_btn {
   border: 1px solid;
   border-image-slice: 1;

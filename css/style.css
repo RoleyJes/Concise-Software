@@ -1,0 +1,73 @@
+/*********************************** HERO SECTION ***************************/
+.hero_sec {
+  background-image: url(/imgs/hero-bcg.svg);
+  background-size: cover;
+  /* background-position: center; */
+}
+
+.hero_sec h1 {
+  font-family: 'Inter', sans-serif;
+  font-size: 3rem;
+}
+
+.hero_we {
+  color: var(--primary-900);
+  font-weight: 600;
+}
+
+.hero_simplified {
+  color: var(--bird-blue-grey-1000);
+  font-weight: 700;
+}
+
+.hero_you {
+  color: var(--primary-700);
+  font-weight: 700;
+}
+
+.hero_sec p {
+  font-weight: 500;
+}
+
+/*********************************** PARTNERS SECTION ***************************/
+.partners_sect {
+  background-color: var(--primary-100);
+}
+
+.partner_logo_cont {
+  width: 6rem;
+}
+
+.partner_logo_cont img {
+  width: 100%;
+}
+
+/*********************************** SERVICES SECTION ***************************/
+.services_section {
+  background-color: var(--pink-variant);
+}
+
+.services_section p {
+  color: var(--primary-1000);
+  font-weight: 700;
+}
+
+.services_section h2 {
+  color: var(--bird-blue-grey-1000);
+  font-weight: 800;
+}
+
+.services_col {
+  border-radius: var(--border-radius8);
+  background-color: var(--primary-1000);
+}
+
+.services_col h4 {
+  font-weight: 600;
+  color: var(--bird-blue-grey-100);
+}
+
+.services_col p {
+  font-weight: 500;
+  color: var(--bird-blue-grey-200);
+}
