@@ -26,8 +26,8 @@
 
   --gray-700: #374151;
   --pink-variant: rgba(253, 240, 221, 1);
-  --blue-variant1: rgba(220, 249, 232, 1);
-  --blue-variant2: rgba(220, 233, 249, 1);
+  --green-variant: rgba(220, 249, 232, 1);
+  --blue-variant: rgba(220, 233, 249, 1);
   --purple-variant: rgba(236, 220, 249, 1);
 
   --btn-gradient: linear-gradient(
@@ -74,7 +74,6 @@ a {
   border: 1px solid;
   border-image-slice: 1;
   border-image-source: var(--btn-gradient);
-
   /* gradient for text  */
   background-image: var(--btn-gradient);
   background-size: 100%;
@@ -82,6 +81,18 @@ a {
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
+}
+
+.small_header {
+  color: var(--primary-1000);
+  font-weight: 700;
+  font-family: 'Manrope', sans-serif;
+}
+
+.big_header {
+  color: var(--bird-blue-grey-1000);
+  font-weight: 800;
+  font-family: 'Manrope', sans-serif;
 }
 
 /************************ READY TO TAKE ***************************/
@@ -121,12 +132,15 @@ footer {
 
 footer a {
   color: inherit;
-  font-size: 0.9rem;
   font-weight: 500;
 }
 
 footer a:hover {
   color: var(--bird-blue-grey-700);
+}
+
+.f_socials {
+  width: 70%;
 }
 
 .socials_cont {
@@ -135,6 +149,7 @@ footer a:hover {
 
 .socials_cont img {
   width: 100%;
+  cursor: pointer;
 }
 
 .f_text {
