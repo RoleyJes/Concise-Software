@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700;800&display=swap');
 
+/* * {
+  overflow-x: hidden;
+} */
+
 :root {
   --white: rgb(255, 255, 255);
   --primary-100: rgb(242, 247, 251);
@@ -25,6 +29,7 @@
   --bird-blue-grey-1000: rgb(56, 65, 71);
 
   --gray-700: #374151;
+  --gray-900: #111827;
   --pink-variant: rgba(253, 240, 221, 1);
   --green-variant: rgba(220, 249, 232, 1);
   --blue-variant: rgba(220, 233, 249, 1);
