@@ -1,13 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700;800&display=swap');
+
 /*********************************** HERO SECTION ***************************/
-.hero_sec {
+.hero_section {
   background-image: url(/imgs/hero-bcg.svg);
   background-size: cover;
-  /* background-position: center; */
 }
 
-.hero_sec h1 {
+.hero_section h1 {
   font-family: 'Inter', sans-serif;
-  font-size: 3rem;
 }
 
 .hero_we {
@@ -25,12 +25,26 @@
   font-weight: 700;
 }
 
-.hero_sec p {
+.hero_section p {
   font-weight: 500;
 }
 
+.btn-main {
+  padding: 10px 15px;
+  background-color: var(--primary-600);
+  font-size: 14px;
+  color: var(--white);
+}
+
+.btn-secs {
+  padding: 10px 15px;
+  background-color: var(--white);
+  border: 1px solid var(--primary-600);
+  font-size: 14px;
+  color: var(--primary-600);
+}
 /*********************************** PARTNERS SECTION ***************************/
-.partners_sect {
+.partners_section {
   background-color: var(--primary-100);
 }
 
@@ -38,23 +52,9 @@
   width: 6rem;
 }
 
-.partner_logo_cont img {
-  width: 100%;
-}
-
 /*********************************** SERVICES SECTION ***************************/
 .services_section {
   background-color: var(--pink-variant);
-}
-
-.services_section p {
-  color: var(--primary-1000);
-  font-weight: 700;
-}
-
-.services_section h2 {
-  color: var(--bird-blue-grey-1000);
-  font-weight: 800;
 }
 
 .services_col {
@@ -62,13 +62,96 @@
   background-color: var(--primary-1000);
 }
 
-.services_col h4 {
+.services_col h5 {
   font-weight: 600;
   color: var(--bird-blue-grey-100);
 }
 
 .services_col p {
   font-weight: 500;
+  color: var(--bird-blue-grey-200);
+}
+
+/*********************************** WORKS SECTION ***************************/
+.works_img_cont {
+  width: 15rem;
+  height: 25rem;
+  border-radius: 8px;
+}
+
+.works_img_cont1 {
+  background-color: var(--green-variant);
+}
+.works_img_cont2 {
+  background-color: var(--purple-variant);
+}
+.works_img_cont3 {
+  background-color: var(--blue-variant);
+}
+.works_img_cont4 {
+  background-color: var(--pink-variant);
+}
+
+.works_section h3 {
+  font-weight: 600;
+  color: var(--bird-blue-grey-1000);
+}
+
+.works_section p.lead {
+  font-weight: 500;
+}
+
+.works_section h5 {
+  color: var(--bird-blue-grey-1000);
+  font-weight: 800;
+}
+
+/*********************************** TESTIMONIALS SECTION ***************************/
+.testimonials_section {
+  background-color: var(--primary-1000);
+}
+
+.testimonials_section .small_header {
+  color: var(--bird-blue-grey-200);
+}
+
+.testimonials_section .big_header {
+  color: var(--bird-blue-grey-100);
+}
+
+.testimonials_img_cont {
+  width: 19rem;
+}
+
+.testimonials_img_cont img {
+  width: 100%;
+}
+
+/* 576px */
+@media (max-width: 36em) {
+  .testimonials_img_cont {
+    width: 10rem;
+  }
+
+  .arrows_cont {
+    left: 50%;
+    transform: translateX(-25%);
+  }
+}
+
+/* 320px */
+@media (max-width: 20em) {
+  .arrows_cont {
+    left: 45%;
+    transform: translateX(-30%);
+  }
+}
+
+.t_text_cont {
+  max-width: 32rem;
+}
+
+.t_text {
   color: var(--bird-blue-grey-200);
 }
 
@@ -1349,3 +1432,143 @@ padding-bottom: 3rem;
 
 
 
+=======
+.t_name {
+  color: var(--bird-blue-grey-100);
+  font-weight: 700;
+}
+
+.t_position {
+  color: var(--bird-blue-grey-300);
+  font-weight: 500;
+}
+
+.t_arrow {
+  cursor: pointer;
+}
+
+.t_prev_arrow_cont,
+.t_next_arrow_cont {
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.t_prev_arrow_cont:hover,
+.t_prev_arrow_cont:active,
+.t_next_arrow_cont:hover,
+.t_next_arrow_cont:active {
+  outline: 1px solid var(--primary-100);
+  border-radius: 50%;
+}
+
+/*********************************** MANTRA SECTION ***************************/
+.mantra_section {
+  background-color: rgba(245, 254, 255, 1);
+  font-family: 'Inter', sans-serif;
+}
+
+.mantra_heading {
+  font-weight: 700;
+  color: var(--bird-blue-grey-1000);
+}
+
+.mantra_hammer_cont {
+  width: 2.5rem;
+}
+
+/* 768px */
+@media (min-width: 48em) {
+  .mantra_hammer_cont img {
+    width: 100%;
+  }
+
+  .mantra_text {
+    width: 75%;
+  }
+}
+
+/* 1200px */
+@media (min-width: 75em) {
+  .mantra_text {
+    width: 50%;
+  }
+}
+
+.mantra_small_heading {
+  color: black;
+  font-weight: 700;
+}
+
+.mantra_hands_cont img {
+  width: 100%;
+}
+/**************************CONTACT US STYLING********************/
+
+
+.contact_us {
+  background: linear-gradient(#144b63f5, #144b63f5, #144b63f6), url(../imgs/contact/bgimage.png);
+
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 496px;
+
+}
+
+.contact_us div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contact_sub_header {
+  color: var(--white);
+
+}
+
+.contact_sub_header {
+  font-size: 64px;
+  color: var(--white);
+}
+
+.header {
+  font-size: 46px;
+  /* 64px */
+}
+
+.icon-bg {
+  background-color: var(--primary-600);
+}
+
+#form {
+  height: 60rem;
+  background-color: var(--white);
+}
+
+#form input {
+  border: none;
+  font-size: 14px;
+}
+
+.form-header {
+  height: 7rem;
+}
+
+input,
+textarea,
+select {
+  background-color: var(--primary-100);
+}
+
+#form button {
+  background: var(--primary-600);
+  color: white;
+  cursor: pointer;
+}
+.contact-card-bg {
+  background: url(../imgs/contact/sectionbg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
