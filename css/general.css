@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700;800&display=swap');
 
-/* * {
-  overflow-x: hidden;
-} */
-
 :root {
   --white: rgb(255, 255, 255);
   --primary-100: rgb(242, 247, 251);
@@ -76,6 +72,7 @@ a {
 
 /*---------------- General Classes ------------------*/
 .gradient_btn {
+  padding: 5px 10px;
   border: 1px solid;
   border-image-slice: 1;
   border-image-source: var(--btn-gradient);
@@ -144,12 +141,8 @@ footer a:hover {
   color: var(--bird-blue-grey-700);
 }
 
-.f_socials {
-  width: 70%;
-}
-
 .socials_cont {
-  width: 3rem;
+  width: 1.5rem;
 }
 
 .socials_cont img {
@@ -159,7 +152,6 @@ footer a:hover {
 
 .f_text {
   text-align: justify;
-  font-size: 0.9rem;
   font-weight: 500;
   color: var(--bird-blue-grey-900);
 }
@@ -189,6 +181,5 @@ footer a:hover {
 }
 
 .f_copywrite {
-  max-width: 23rem;
   font-size: 0.9rem;
 }

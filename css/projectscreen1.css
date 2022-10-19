@@ -41,7 +41,6 @@
 }
 
 .solutions_text {
-  width: 80%;
   font-weight: 500;
 }
 
@@ -51,22 +50,26 @@
   height: 362px;
   background: url(/imgs/ps1/graph.svg);
   background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 /*********************************** TAGS SECTION ***************************/
 .tags_section a {
-  margin-right: 0.4rem;
+  margin-right: 0.3rem;
+  margin-bottom: 0.6rem;
   padding: 4px 10px;
   border-radius: 4px;
   font-size: 0.8rem;
-}
-
-.tags_section .tags_a {
-  color: var(--gray-900);
-  background-color: var(--primary-200);
+  display: inline-block;
 }
 
 .tags_all {
   color: var(--bird-blue-grey-100);
   background-color: var(--primary-600);
+}
+
+.tags_section .tags_a {
+  color: var(--gray-900);
+  background-color: var(--primary-200);
 }

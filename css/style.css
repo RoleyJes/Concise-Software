@@ -118,6 +118,19 @@
   .testimonials_img_cont {
     width: 10rem;
   }
+
+  .arrows_cont {
+    left: 50%;
+    transform: translateX(-25%);
+  }
+}
+
+/* 320px */
+@media (max-width: 20em) {
+  .arrows_cont {
+    left: 45%;
+    transform: translateX(-30%);
+  }
 }
 
 .t_text_cont {
@@ -156,7 +169,7 @@
   border-radius: 50%;
 }
 
-/*********************************** TESTIMONIALS SECTION ***************************/
+/*********************************** MANTRA SECTION ***************************/
 .mantra_section {
   background-color: rgba(245, 254, 255, 1);
   font-family: 'Inter', sans-serif;
@@ -171,17 +184,27 @@
   width: 2.5rem;
 }
 
-.mantra_hammer_cont img {
-  width: 100%;
+/* 768px */
+@media (min-width: 48em) {
+  .mantra_hammer_cont img {
+    width: 100%;
+  }
+
+  .mantra_text {
+    width: 75%;
+  }
+}
+
+/* 1200px */
+@media (min-width: 75em) {
+  .mantra_text {
+    width: 50%;
+  }
 }
 
 .mantra_small_heading {
   color: black;
   font-weight: 700;
-}
-
-.mantra_text {
-  width: 50%;
 }
 
 .mantra_hands_cont img {
