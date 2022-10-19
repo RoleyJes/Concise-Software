@@ -74,6 +74,7 @@ a {
 .gradient_btn {
   padding: 5px 10px;
   border: 1px solid;
+  border-radius: 20px;
   border-image-slice: 1;
   border-image-source: var(--btn-gradient);
   /* gradient for text  */
