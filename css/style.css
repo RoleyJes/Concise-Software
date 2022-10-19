@@ -29,6 +29,20 @@
   font-weight: 500;
 }
 
+.btn-main {
+  padding: 10px 15px;
+  background-color: var(--primary-600);
+  font-size: 14px;
+  color: var(--white);
+}
+
+.btn-secs {
+  padding: 10px 15px;
+  background-color: var(--white);
+  border: 1px solid var(--primary-600);
+  font-size: 14px;
+  color: var(--primary-600);
+}
 /*********************************** PARTNERS SECTION ***************************/
 .partners_section {
   background-color: var(--primary-100);
