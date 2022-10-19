@@ -136,3 +136,9 @@ select {
   color: white;
   cursor: pointer;
 }
+.contact-card-bg {
+  background: url(../imgs/contact/sectionbg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
