@@ -74,6 +74,35 @@
 
 /*********************************** BLOGLIST SECTION ***************************/
 
+  /*********************************** HERO SECTION ***************************/
+  .hero_section {
+    background-image: url(/imgs/hero-bcg.svg);
+    background-size: cover;
+  }
+  
+  .hero_section h1 {
+    font-family: 'Inter', sans-serif;
+  }
+  
+  .hero_we {
+    color: var(--primary-900);
+    font-weight: 600;
+  }
+  
+  .hero_simplified {
+    color: var(--bird-blue-grey-1000);
+    font-weight: 700;
+  }
+  
+  .hero_you {
+    color: var(--primary-700);
+    font-weight: 700;
+  }
+  
+  .hero_section p {
+    font-weight: 500;
+  }
+
 .blog{
   margin-top: 4.25rem;
 }
