@@ -74,7 +74,6 @@ a {
 .gradient_btn {
   padding: 5px 10px;
   border: 1px solid;
-  border-radius: 20px;
   border-image-slice: 1;
   border-image-source: var(--btn-gradient);
   /* gradient for text  */
@@ -84,6 +83,10 @@ a {
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
+}
+
+.gradient_btn_find {
+  padding: 0.7rem 1rem;
 }
 
 .small_header {
@@ -143,12 +146,12 @@ footer a:hover {
 }
 
 .socials_cont {
+  display: block;
   width: 1.5rem;
 }
 
 .socials_cont img {
   width: 100%;
-  cursor: pointer;
 }
 
 .f_text {
