@@ -73,9 +73,10 @@ a {
 /*---------------- General Classes ------------------*/
 .gradient_btn {
   padding: 5px 10px;
-  border: 1px solid;
-  border-image-slice: 1;
-  border-image-source: var(--btn-gradient);
+  border: 1px solid #3a83d7b6;
+  border-radius: var(--border-radius4);
+  /* border-image-slice: 1; */
+  /* border-image-source: var(--btn-gradient); */
   /* gradient for text  */
   background-image: var(--btn-gradient);
   background-size: 100%;
@@ -87,6 +88,8 @@ a {
 
 .gradient_btn_find {
   padding: 0.7rem 1rem;
+  font-weight: 700;
+  font-size: 1rem;
 }
 
 .small_header {
