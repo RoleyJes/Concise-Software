@@ -106,6 +106,10 @@
   font-weight: 800;
 }
 
+.project_desc {
+  color: var(--bird-blue-grey-900);
+}
+
 /*********************************** TESTIMONIALS SECTION ***************************/
 .testimonials_section {
   background-color: var(--primary-1000);
@@ -157,78 +161,78 @@
 
 /*********************************** BLOGLIST SECTION ***************************/
 
-  /*********************************** HERO SECTION ***************************/
-  .hero_section {
-    background-image: url(../imgs/hero-bcg.svg);
-    background-size: cover;
-  }
-  
-  .hero_section h1 {
-    font-family: 'Inter', sans-serif;
-  }
-  
-  .hero_we {
-    color: var(--primary-900);
-    font-weight: 600;
-  }
-  
-  .hero_simplified {
-    color: var(--bird-blue-grey-1000);
-    font-weight: 700;
-  }
-  
-  .hero_you {
-    color: var(--primary-700);
-    font-weight: 700;
-  }
-  
-  .hero_section p {
-    font-weight: 500;
-  }
+/*********************************** HERO SECTION ***************************/
+.hero_section {
+  background-image: url(../imgs/hero-bcg.svg);
+  background-size: cover;
+}
 
-.blog{
+.hero_section h1 {
+  font-family: 'Inter', sans-serif;
+}
+
+.hero_we {
+  color: var(--primary-900);
+  font-weight: 600;
+}
+
+.hero_simplified {
+  color: var(--bird-blue-grey-1000);
+  font-weight: 700;
+}
+
+.hero_you {
+  color: var(--primary-700);
+  font-weight: 700;
+}
+
+.hero_section p {
+  font-weight: 500;
+}
+
+.blog {
   margin-top: 4.25rem;
 }
-.blog-img img{
+.blog-img img {
   object-fit: cover;
   width: 100%;
   height: 25.9rem;
   border-radius: var(--border-radius8);
 }
 
-.date1{
-  background-color:var(--primary-600);
+.date1 {
+  background-color: var(--primary-600);
   color: var(--bird-blue-grey-100);
   width: 6rem;
   font-size: 12px;
 }
-.blog-text-h1{
+.blog-text-h1 {
   font-weight: 700;
   width: 100%;
   font-size: 3.75rem;
   line-height: 4.5rem;
 }
 
-.blog-text-p{
+.blog-text-p {
   font-weight: 400;
   width: 100%;
   font-size: 1.5rem;
   line-height: 2.05rem;
 }
-.bloglist-head p{
+.bloglist-head p {
   color: var(--bird-blue-grey-1000);
   font-weight: 800;
   font-size: 1.5rem;
 }
 
-.bloglist .date{
+.bloglist .date {
   color: var(--bird-blue-grey-600);
   font-weight: 800;
   font-size: 0.7rem;
   line-height: 0.87rem;
 }
 
-.bloglist .head{
+.bloglist .head {
   color: var(--bird-blue-grey-1000);
   width: 100%;
   height: 3.6rem;
@@ -236,7 +240,7 @@
   font-size: 1.5rem;
   line-height: 1.8rem;
 }
-.bloglist .text{
+.bloglist .text {
   color: var(--bird-blue-grey-1000);
   width: 100%;
   height: 4.76rem;
@@ -244,12 +248,12 @@
   font-size: 1rem;
   line-height: 1.2rem;
 }
-.bloglist img{
+.bloglist img {
   width: 100%;
 }
-.buttn{
+.buttn {
   color: var(--white);
-  background-color:var(--primary-600);
+  background-color: var(--primary-600);
   font-size: 1rem;
   font-weight: 700;
   padding: 0.7rem 1rem;
@@ -258,101 +262,99 @@
 }
 /*********************************** BLOGPAGE SECTION ***************************/
 
-.link{
+.link {
   background-color: var(--primary-100);
   height: 4.5rem;
 }
 
-.inner-link a{
+.inner-link a {
   text-decoration: none;
   color: var(--gray-900);
   font-size: 1rem;
 }
-.blog{
+.blog {
   font-weight: 700;
 }
-.inner-link2 a{
+.inner-link2 a {
   text-decoration: none;
   color: var(--gray-900);
   font-size: 0.874rem;
   font-weight: 400;
   margin-right: 100px;
 }
-.inner-link2{
+.inner-link2 {
   margin-left: 1rem;
 }
-.blogpage{
+.blogpage {
   padding-bottom: 20rem;
 }
-.container-div{
-  background-color:  #FAFBFC;
+.container-div {
+  background-color: #fafbfc;
 }
-.container-div h1{
+.container-div h1 {
   color: var(--bird-blue-grey-1000);
   font-weight: 700;
   font-size: 2.75rem;
   line-height: 3.5rem;
 }
-.inner-link3{
+.inner-link3 {
   text-decoration: none;
   color: var(--gray-900);
   font-size: 1rem;
   font-weight: 400;
 }
-.inner-link3 a{
+.inner-link3 a {
   text-decoration: none;
   color: var(--gray-900);
   font-size: 1rem;
   font-weight: 400;
 }
 
-
-.container-div .img img{
+.container-div .img img {
   height: 30rem;
   width: 100%;
 }
-.p{
+.p {
   font-weight: 400;
   font-size: 1rem;
   line-height: 1.4rem;
   color: var(--bird-blue-grey-1000);
 }
-.discussion{
+.discussion {
   overflow-x: hidden;
 }
-.discussion h3{
+.discussion h3 {
   font-weight: 700;
   font-size: 1.5rem;
   color: var(--bird-blue-grey-1000);
 }
-.textarea{
+.textarea {
   background-color: var(--primary-100);
   border: 1px solid var(--bird-blue-grey-600);
   width: 100%;
 }
-.textarea{
+.textarea {
   font-size: 0.875rem;
-  
 }
 
-.blogpage2 img{
+.blogpage2 img {
   width: 100%;
   height: 14.75rem;
 }
-.blogpage2-head{
+.blogpage2-head {
   color: black;
   width: 100%;
   font-weight: 600;
   font-size: 1.5rem;
   line-height: 1.5rem;
 }
-.blogpage2 .date{
+.blogpage2 .date {
   color: var(--bird-blue-grey-600);
   font-weight: 800;
   font-size: 0.7rem;
   line-height: 0.87rem;
 }
-.blogpage2 .head{
+.blogpage2 .head {
   color: var(--bird-blue-grey-1000);
   width: 100%;
   height: 3.6rem;
@@ -360,7 +362,7 @@
   font-size: 1.5rem;
   line-height: 1.8rem;
 }
-.blogpage2 .text{
+.blogpage2 .text {
   color: var(--bird-blue-grey-1000);
   width: 100%;
   height: 4.76rem;
@@ -368,12 +370,11 @@
   font-size: 1rem;
   line-height: 1.2rem;
 }
-.form{
+.form {
   border: 1px solid var(--primary-600);
   border-radius: var(--border-radius8);
-
 }
-.form p{
+.form p {
   color: var(--bird-blue-grey-900);
   font-weight: 600;
   font-size: 1.5rem;
@@ -381,623 +382,578 @@
   width: 100%;
 }
 
-.form input{
+.form input {
   width: 100%;
   background-color: var(--primary-100);
-  border: 1px solid #9CA3AF;
+  border: 1px solid #9ca3af;
   border-radius: var(--border-radius4);
 }
-.form .buttn{
+.form .buttn {
   width: 100%;
   font-size: 1rem;
   font-weight: 600;
 }
-input:focus{
-  outline:none;
+input:focus {
+  outline: none;
   border: 1px solid var(--primary-600);
 }
 
 /*********************************** BLOGPAGE SECTION RESPONSIVENESS ***************************/
 
-@media (min-width:280px ) and (max-width: 320px)  {
-
-
-  .inner-link a{
+@media (min-width: 280px) and (max-width: 320px) {
+  .inner-link a {
     font-size: 0.9rem;
-    
   }
-  .blog{
+  .blog {
     font-weight: 700;
   }
-  .link{
+  .link {
     height: 6rem;
   }
-  .inner-link2 a{
+  .inner-link2 a {
     font-size: 0.7rem;
   }
   .inner-link2 {
     margin-left: 1rem;
-   
   }
-  
-  .container-div h1{
+
+  .container-div h1 {
     font-size: 1.75rem;
     line-height: 2.5rem;
   }
-  .inner-link3{
+  .inner-link3 {
     font-size: 0.9rem;
   }
-  .inner-link3 a{
+  .inner-link3 a {
     font-size: 0.9rem;
   }
-  
-  .container-div .img img{
+
+  .container-div .img img {
     object-fit: cover;
     height: 15rem;
     border-radius: var(--border-radius8);
   }
-  .p{
+  .p {
     text-align: justify;
   }
-  .discussion{
+  .discussion {
     overflow-x: hidden;
   }
-  .discussion h3{
+  .discussion h3 {
     font-size: 1.4rem;
   }
 
-  .textarea{
+  .textarea {
     font-size: 0.775rem;
   }
-  .discussion .d-flex{
+  .discussion .d-flex {
     display: flex;
     justify-content: center;
   }
-  .discussion .buttn{
+  .discussion .buttn {
     padding: 0.5rem;
   }
 
-  
-  .blogpage2 img{
+  .blogpage2 img {
     object-fit: cover;
     height: 10rem;
     border-radius: var(--border-radius8);
   }
 
-
-  .blogpage2-head{
+  .blogpage2-head {
     font-size: 1.4rem;
   }
-  .blogpage2 .head{
+  .blogpage2 .head {
     height: 3rem;
     font-size: 1.2rem;
     line-height: 1.5rem;
   }
-  .blogpage2 .text{
+  .blogpage2 .text {
     height: 6.76rem;
     font-size: 0.8rem;
     line-height: 1.2rem;
-    
   }
-  .blogpage{
+  .blogpage {
     padding-bottom: 5rem;
   }
-
 }
 
-
-
-@media (min-width:321px ) and (max-width: 375px)  {
-  .link{
+@media (min-width: 321px) and (max-width: 375px) {
+  .link {
     height: 6rem;
   }
 
-  .inner-link2 a{
+  .inner-link2 a {
     font-size: 0.8rem;
   }
- 
-  .container-div h1{
+
+  .container-div h1 {
     font-size: 1.75rem;
     line-height: 2.5rem;
   }
-  .inner-link3{
+  .inner-link3 {
     font-size: 0.9rem;
   }
-  .inner-link3 a{
+  .inner-link3 a {
     font-size: 0.9rem;
   }
-  
-  .container-div .img img{
+
+  .container-div .img img {
     object-fit: cover;
     height: 15rem;
     border-radius: var(--border-radius8);
   }
-  .p{
+  .p {
     text-align: justify;
     font-size: 0.9rem;
     line-height: 1.2rem;
   }
-  
-  .discussion{
+
+  .discussion {
     overflow-x: hidden;
   }
-  .discussion h3{
+  .discussion h3 {
     font-size: 1.12rem;
   }
 
-  .textarea{
+  .textarea {
     font-size: 0.9rem;
   }
-  .discussion .d-flex{
+  .discussion .d-flex {
     display: flex;
     justify-content: center;
   }
-  .discussion .buttn{
+  .discussion .buttn {
     padding: 0.5rem;
   }
 
-  .blogpage2 img{
+  .blogpage2 img {
     object-fit: cover;
     height: 10rem;
     border-radius: var(--border-radius8);
   }
 
-
-  .blogpage2-head{
+  .blogpage2-head {
     font-size: 1.4rem;
   }
-  .blogpage2 .head{
+  .blogpage2 .head {
     height: 3rem;
     font-size: 1.2rem;
     line-height: 1.5rem;
   }
-  .blogpage2 .text{
+  .blogpage2 .text {
     height: 4rem;
     font-size: 0.8rem;
     line-height: 1.2rem;
-    
   }
-  .blogpage{
+  .blogpage {
     padding-bottom: 5rem;
   }
-
 }
-@media (min-width:376px ) and (max-width: 768px)  {
-  .link{
+@media (min-width: 376px) and (max-width: 768px) {
+  .link {
     height: 6rem;
   }
 
-  .inner-link2 a{
+  .inner-link2 a {
     font-size: 0.8rem;
   }
- 
-  .container-div h1{
+
+  .container-div h1 {
     font-size: 1.75rem;
     line-height: 2.5rem;
   }
-  .inner-link3{
+  .inner-link3 {
     font-size: 0.9rem;
   }
-  .inner-link3 a{
+  .inner-link3 a {
     font-size: 0.9rem;
   }
-  
- 
-  .container-div .img img{
+
+  .container-div .img img {
     object-fit: cover;
     height: 15rem;
     border-radius: var(--border-radius8);
   }
-  .p{
+  .p {
     text-align: justify;
     font-size: 0.9rem;
     line-height: 1.4rem;
   }
-  
-  .discussion{
+
+  .discussion {
     overflow-x: hidden;
   }
-  .discussion h3{
+  .discussion h3 {
     font-size: 1.12rem;
   }
 
-  .textarea{
+  .textarea {
     font-size: 0.9rem;
   }
-  .discussion .d-flex{
+  .discussion .d-flex {
     display: flex;
     justify-content: center;
   }
-  .discussion .buttn{
+  .discussion .buttn {
     padding: 0.5rem;
   }
 
-  .blogpage2 img{
+  .blogpage2 img {
     object-fit: cover;
     height: 10rem;
     border-radius: var(--border-radius8);
   }
 
-
-  .blogpage2-head{
+  .blogpage2-head {
     font-size: 1.4rem;
   }
-  .blogpage2 .head{
+  .blogpage2 .head {
     height: 3rem;
     font-size: 1.2rem;
     line-height: 1.5rem;
   }
-  .blogpage2 .text{
+  .blogpage2 .text {
     height: 6rem;
     font-size: 0.9rem;
     line-height: 1.4rem;
-    
   }
-  .blogpage{
+  .blogpage {
     padding-bottom: 5rem;
   }
-
 }
-@media (min-width:768px ) and (max-width: 990px)  {
-  
-  .flex-view{
+@media (min-width: 768px) and (max-width: 990px) {
+  .flex-view {
     display: flex;
     margin-bottom: 5rem;
-    
   }
-  .blogpage2 .head{
+  .blogpage2 .head {
     height: 4rem;
     font-size: 1.2rem;
     line-height: 1.5rem;
   }
-  .discussion .buttn{
+  .discussion .buttn {
     padding: 0.5rem;
   }
-  .blogpage{
+  .blogpage {
     padding-bottom: 10rem;
   }
 }
-@media (min-width:768px ) and (max-width: 1200px)  {
-  
-  .blogpage2 .head{
+@media (min-width: 768px) and (max-width: 1200px) {
+  .blogpage2 .head {
     height: 4rem;
   }
-    
-  
-  .blogpage2 .text{
+
+  .blogpage2 .text {
     height: 6rem;
   }
-  .discussion .buttn{
+  .discussion .buttn {
     padding: 0.5rem;
-  } */
-  .blogpage{
+  }
+  */ .blogpage {
     padding-bottom: 5rem;
   }
 }
 /*********************************** BLOGLIST SECTION RESPONSIVENESS ***************************/
 
-@media (min-width:280px ) and (max-width: 320px)  {
-
-
-  .blog-img img{
+@media (min-width: 280px) and (max-width: 320px) {
+  .blog-img img {
     object-fit: cover;
     height: 15rem;
     border-radius: var(--border-radius8);
     margin-bottom: 0.6rem;
   }
-  
-  .date1{
-    
+
+  .date1 {
     width: 6rem;
     font-size: 12px;
   }
-  .blog-text-h1{
+  .blog-text-h1 {
     font-size: 1.75rem;
     line-height: 2.5rem;
   }
-  
-  .blog-text-p{
+
+  .blog-text-p {
     font-size: 1rem;
     line-height: 1.4rem;
   }
-  
-  .bloglist .date{
+
+  .bloglist .date {
     color: var(--bird-blue-grey-600);
     font-weight: 800;
     font-size: 0.7rem;
     line-height: 0.87rem;
   }
-  
-  .bloglist .head{
+
+  .bloglist .head {
     font-size: 1.4rem;
     line-height: 1.8rem;
     height: 5.5rem;
   }
-  .bloglist .text{
+  .bloglist .text {
     height: 6rem;
     font-size: 0.9rem;
     line-height: 1.2rem;
   }
-  .buttn-cont{
+  .buttn-cont {
     display: flex;
     justify-content: center;
     margin-top: 1rem;
     margin-bottom: 3rem;
   }
- 
 }
 
-
-@media (width:320px ){
-  .bloglist .head{
+@media (width: 320px) {
+  .bloglist .head {
     height: 3.5rem;
   }
 }
 
-@media (min-width:321px ) and (max-width: 375px)  {
- 
-
-  .blog-img img{
+@media (min-width: 321px) and (max-width: 375px) {
+  .blog-img img {
     object-fit: cover;
     height: 15rem;
     border-radius: var(--border-radius8);
     margin-bottom: 0.6rem;
   }
-  
-  .date1{
-    
+
+  .date1 {
     width: 6rem;
     font-size: 12px;
   }
-  .blog-text-h1{
+  .blog-text-h1 {
     font-size: 1.75rem;
     line-height: 2.5rem;
-   
   }
-  
-  .blog-text-p{
+
+  .blog-text-p {
     font-size: 1rem;
     line-height: 1.4rem;
   }
-  
-  .bloglist .date{
+
+  .bloglist .date {
     color: var(--bird-blue-grey-600);
     font-weight: 800;
     font-size: 0.7rem;
     line-height: 0.87rem;
   }
-  
-  .bloglist .head{
+
+  .bloglist .head {
     font-size: 1.4rem;
     line-height: 1.8rem;
     height: 4rem;
   }
-  .bloglist .text{
+  .bloglist .text {
     height: 6rem;
     font-size: 0.9rem;
     line-height: 1.2rem;
   }
-  .buttn-cont{
+  .buttn-cont {
     display: flex;
     justify-content: center;
     margin-top: 1rem;
     margin-bottom: 3rem;
   }
-  }
-
-
-
-@media (min-width:376px ) and (max-width: 768px)  {
-  
-
-  .blog-img img{
-    object-fit: cover;
-    height: 15rem;
-    border-radius: var(--border-radius8);
-    margin-bottom: 0.6rem;
-  }
-  
-  .date1{
-    
-    width: 6rem;
-    font-size: 12px;
-  }
-  .blog-text-h1{
-    font-size: 1.75rem;
-    line-height: 2.5rem;
-  }
-  
-  .blog-text-p{
-    font-size: 1rem;
-    line-height: 1.4rem;
-  }
-  
-  .bloglist .date{
-    color: var(--bird-blue-grey-600);
-    font-weight: 800;
-    font-size: 0.7rem;
-    line-height: 0.87rem;
-  }
-  
-  .bloglist .head{
-    font-size: 1.4rem;
-    line-height: 1.8rem;
-    height: 4rem;
-  }
-  .bloglist .text{
-    height: 6rem;
-    font-size: 0.9rem;
-    line-height: 1.2rem;
-  }
-  .buttn-cont{
-    margin-top: 0.2rem ;
-  }
-  .buttn-cont{
-    display: flex;
-    justify-content: center;
-    margin-top: 1rem;
-    margin-bottom: 3rem;
-  }
-  
 }
 
+@media (min-width: 376px) and (max-width: 768px) {
+  .blog-img img {
+    object-fit: cover;
+    height: 15rem;
+    border-radius: var(--border-radius8);
+    margin-bottom: 0.6rem;
+  }
 
-@media (min-width:768px ) and (max-width: 990px)  {
- 
+  .date1 {
+    width: 6rem;
+    font-size: 12px;
+  }
+  .blog-text-h1 {
+    font-size: 1.75rem;
+    line-height: 2.5rem;
+  }
+
+  .blog-text-p {
+    font-size: 1rem;
+    line-height: 1.4rem;
+  }
+
+  .bloglist .date {
+    color: var(--bird-blue-grey-600);
+    font-weight: 800;
+    font-size: 0.7rem;
+    line-height: 0.87rem;
+  }
+
+  .bloglist .head {
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    height: 4rem;
+  }
+  .bloglist .text {
+    height: 6rem;
+    font-size: 0.9rem;
+    line-height: 1.2rem;
+  }
+  .buttn-cont {
+    margin-top: 0.2rem;
+  }
+  .buttn-cont {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 990px) {
   /* .blog-img img{
     object-fit: cover;
     height: 1rem;
     border-radius: var(--border-radius8);
     margin-bottom: 0.6rem;
   } */
-  .flex-view{
+  .flex-view {
     display: flex;
     margin-bottom: 5rem;
   }
-  .flex{
+  .flex {
     margin-left: 0.8rem;
   }
-  .bloglist .head{
+  .bloglist .head {
     height: 3.5rem;
     width: 20rem;
     font-size: 1.2rem;
     line-height: 1.5rem;
   }
-  .bloglist .text{
+  .bloglist .text {
     width: 20rem;
   }
-  
 }
-@media (min-width:768px ) and (max-width: 1200px)  {
-  
-    .flex-view img{
+@media (min-width: 768px) and (max-width: 1200px) {
+  .flex-view img {
     margin-top: 1rem;
   }
-  .bloglist .head{
+  .bloglist .head {
     height: 6rem;
   }
-  .blog-text-p{
+  .blog-text-p {
     font-size: 1.3rem;
   }
 }
 
 /*********************************** WE CREATE ***************************/
-.bg1{
+.bg1 {
   background: url(../imgs/wecreate/worldmap\ 1.svg);
   background-position: top right;
   background-repeat: no-repeat;
 }
-.bg2{
+.bg2 {
   background: url(../imgs/wecreate/worldmap\ 2.svg);
   background-position: top left;
   background-repeat: no-repeat;
 }
-.contt{
+.contt {
   height: 100%;
 }
-.we-create{
+.we-create {
   height: 25rem;
 }
-.we-create h1{
+.we-create h1 {
   font-size: 3.25rem;
   line-height: 4.5rem;
   font-weight: 600;
   width: 100%;
   color: var(--bird-blue-grey-1000);
 }
-.we-create span{
-color: var(--primary-900);
+.we-create span {
+  color: var(--primary-900);
 }
-.we-create p{
+.we-create p {
   font-weight: 500;
   font-size: 1rem;
   line-height: 1.37rem;
   color: var(--bird-blue-grey-900);
   width: 80%;
-
 }
-.we-create-image{
+.we-create-image {
   height: 30rem;
   width: 100%;
 }
 
 /*********************************** STAT ***************************/
 
-
-.container-{
+.container- {
   height: 18rem;
   background-color: var(--primary-900);
 }
-.container- .p{
+.container- .p {
   color: var(--primary-100);
   font-weight: 700;
   font-size: 1rem;
-  
+
   text-align: center;
 }
-.container- p{
+.container- p {
   color: var(--primary-100);
   font-weight: 500;
   font-size: 1rem;
   text-align: center;
-  
 }
-.container- h1{
+.container- h1 {
   color: var(--primary-100);
   font-weight: 800;
   font-size: 3rem;
   line-height: 3rem;
   text-align: center;
 }
-.container- h2{
+.container- h2 {
   color: var(--primary-100);
   font-weight: 800;
   font-size: 3rem;
   margin-bottom: 1rem;
   text-align: center;
 }
-.container- .flex-{
+.container- .flex- {
   width: 50rem;
 }
 
 /*********************************** MEET ***************************/
-.our-team{
-padding-bottom: 3rem;
+.our-team {
+  padding-bottom: 3rem;
 }
-.meet h1{
+.meet h1 {
   font-weight: 600;
   font-size: 3.25rem;
   line-height: 4.5rem;
   color: var(--bird-blue-grey-1000);
-
 }
-.meet span{
+.meet span {
   color: var(--primary-900);
-  }
-.meet p{
-    font-weight: 500;
-    font-size: 1.5rem;
-    line-height: 2.1rem;
-    color: var(--bird-blue-grey-900);
-  
-  }
+}
+.meet p {
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 2.1rem;
+  color: var(--bird-blue-grey-900);
+}
 
-  .profile{
-    /* width: 25%; */
-  }
+.profile {
+  /* width: 25%; */
+}
 
-.profile img{
-    object-fit: cover;
-    width: 90%;
-  }
+.profile img {
+  object-fit: cover;
+  width: 90%;
+}
 
-.profile h6{
+.profile h6 {
   font-weight: 500;
   font-size: 1.5rem;
   line-height: 2.1rem;
   color: black;
 }
-.profile p{
+.profile p {
   font-weight: 400;
   font-size: 0.875rem;
   line-height: 2.1rem;
@@ -1005,431 +961,383 @@ padding-bottom: 3rem;
   margin-top: -1rem;
 }
 
-
-
-
-
-
 /*********************************** WE CREATE  RESPONSIVENESS***************************/
 
-@media (min-width:280px ) and (max-width: 320px){
-
-  .bg1{
+@media (min-width: 280px) and (max-width: 320px) {
+  .bg1 {
     background: url(../imgs/wecreate/worldmap\ 1.svg);
     background-position: top right;
     background-repeat: no-repeat;
   }
-  .bg2{
+  .bg2 {
     background: url(../imgs/wecreate/worldmap\ 2.svg);
     background-position: top left;
     background-repeat: no-repeat;
   }
-  .contt{
+  .contt {
     height: 100%;
   }
-  .we-create{
+  .we-create {
     height: 25rem;
   }
-  .we-create h1{
+  .we-create h1 {
     font-size: 1.75rem;
     line-height: 2.5rem;
   }
- 
-   .we-create p{
+
+  .we-create p {
     font-size: 0.7rem;
     line-height: 0.87rem;
-  } 
-  .we-create-image{
+  }
+  .we-create-image {
     object-fit: cover;
     width: 100%;
     height: 5rem;
     margin-top: 6rem;
-  } 
+  }
 
-
-
-  .container-{
+  .container- {
     height: 35rem;
     margin-top: 6rem;
     background-color: var(--primary-900);
   }
-  .container- .p{
+  .container- .p {
     color: var(--primary-100);
     font-weight: 700;
-   
+
     font-size: 0.7rem;
-    
+
     text-align: center;
   }
-  .container- p{
+  .container- p {
     color: var(--primary-100);
     font-weight: 500;
     font-size: 1rem;
     text-align: center;
-    
   }
-  .container- h1{
+  .container- h1 {
     color: var(--primary-100);
     font-weight: 800;
     font-size: 1.7rem;
     line-height: 3rem;
     text-align: center;
-    
+
     margin-bottom: -0.2rem;
   }
-  .container- h2{
+  .container- h2 {
     color: var(--primary-100);
     font-size: 1.7rem;
     margin-bottom: 1rem;
     text-align: center;
   }
-  .container- .flex-{
+  .container- .flex- {
     display: block !important;
   }
-  
-  .meet h1{
+
+  .meet h1 {
     font-weight: 600;
     font-size: 1.75rem;
     line-height: 2.5rem;
-  
   }
- 
-  .meet p{
-      font-size: 1rem;
-      line-height: 2.1rem;
-    
-    }
-  
-    
-  .profile img{
-      object-fit: cover;
-      width: 100%;
-    }
-  
-  .profile h6{
+
+  .meet p {
+    font-size: 1rem;
+    line-height: 2.1rem;
+  }
+
+  .profile img {
+    object-fit: cover;
+    width: 100%;
+  }
+
+  .profile h6 {
     font-size: 1rem;
   }
-  .profile p{
+  .profile p {
     font-size: 0.775rem;
     line-height: 2.1rem;
   }
 }
 
-
-
-@media (min-width:321px ) and (max-width: 375px){
-
-  .bg1{
+@media (min-width: 321px) and (max-width: 375px) {
+  .bg1 {
     background: url(../imgs/wecreate/worldmap\ 1.svg);
     background-position: top right;
     background-repeat: no-repeat;
   }
-  .bg2{
+  .bg2 {
     background: url(../imgs/wecreate/worldmap\ 2.svg);
     background-position: top left;
     background-repeat: no-repeat;
   }
-  .contt{
+  .contt {
     height: 100%;
   }
-  .we-create{
+  .we-create {
     height: 25rem;
   }
-  .we-create h1{
+  .we-create h1 {
     font-size: 1.75rem;
     line-height: 2.5rem;
   }
- 
-   .we-create p{
+
+  .we-create p {
     font-size: 0.7rem;
     line-height: 0.87rem;
-  } 
-  .we-create-image{
+  }
+  .we-create-image {
     object-fit: cover;
     width: 100%;
     height: 5rem;
     margin-top: 6rem;
-  } 
+  }
 
-
-
-  .container-{
+  .container- {
     height: 35rem;
     margin-top: 6rem;
     background-color: var(--primary-900);
   }
-  .container- .p{
+  .container- .p {
     color: var(--primary-100);
     font-weight: 700;
-   
+
     font-size: 0.7rem;
-    
+
     text-align: center;
   }
-  .container- p{
+  .container- p {
     color: var(--primary-100);
     font-weight: 500;
     font-size: 1rem;
     text-align: center;
-    
   }
-  .container- h1{
+  .container- h1 {
     color: var(--primary-100);
     font-weight: 800;
     font-size: 1.7rem;
     line-height: 3rem;
     text-align: center;
-    
+
     margin-bottom: -0.2rem;
   }
-  .container- h2{
+  .container- h2 {
     color: var(--primary-100);
     font-size: 1.7rem;
     margin-bottom: 1rem;
     text-align: center;
   }
-  .container- .flex-{
+  .container- .flex- {
     display: block !important;
   }
-  
-  .meet h1{
+
+  .meet h1 {
     font-weight: 600;
     font-size: 1.75rem;
     line-height: 2.5rem;
-  
   }
- 
-  .meet p{
-      font-size: 1rem;
-      line-height: 2.1rem;
-    
-    }
-  
-    
-  .profile img{
-      object-fit: cover;
-      width: 100%;
-    }
-  
-  .profile h6{
+
+  .meet p {
+    font-size: 1rem;
+    line-height: 2.1rem;
+  }
+
+  .profile img {
+    object-fit: cover;
+    width: 100%;
+  }
+
+  .profile h6 {
     font-size: 1rem;
   }
-  .profile p{
+  .profile p {
     font-size: 0.775rem;
     line-height: 2.1rem;
   }
 }
 
-
-
-
-
-
-
-
-@media (min-width:376px ) and (max-width: 767px){
-
-  .bg1{
+@media (min-width: 376px) and (max-width: 767px) {
+  .bg1 {
     background: url(../imgs/wecreate/worldmap\ 1.svg);
     background-position: top right;
     background-repeat: no-repeat;
   }
-  .bg2{
+  .bg2 {
     background: url(../imgs/wecreate/worldmap\ 2.svg);
     background-position: top left;
     background-repeat: no-repeat;
   }
-  .contt{
+  .contt {
     height: 100%;
   }
-  .we-create{
+  .we-create {
     height: 40rem;
   }
-  .we-create h1{
+  .we-create h1 {
     font-size: 2.75rem;
     line-height: 3.5rem;
   }
- 
-   .we-create p{
+
+  .we-create p {
     font-size: 1rem;
     line-height: 1.5rem;
-  } 
-  .we-create-image{
+  }
+  .we-create-image {
     object-fit: cover;
     width: 100%;
     height: 10rem;
     margin-top: 6rem;
-  } 
+  }
 
-
-
-  .container-{
+  .container- {
     height: 35rem;
     margin-top: 6rem;
     background-color: var(--primary-900);
   }
-  .container- .p{
+  .container- .p {
     color: var(--primary-100);
     font-weight: 700;
-   
+
     font-size: 0.7rem;
-    
+
     text-align: center;
   }
-  .container- p{
+  .container- p {
     color: var(--primary-100);
     font-weight: 500;
     font-size: 1rem;
     text-align: center;
-    
   }
-  .container- h1{
+  .container- h1 {
     color: var(--primary-100);
     font-weight: 800;
     font-size: 1.7rem;
     line-height: 3rem;
     text-align: center;
-    
+
     margin-bottom: -0.2rem;
   }
-  .container- h2{
+  .container- h2 {
     color: var(--primary-100);
     font-size: 1.7rem;
     margin-bottom: 1rem;
     text-align: center;
   }
-  .container- .flex-{
+  .container- .flex- {
     display: block !important;
   }
-  
-  .meet h1{
+
+  .meet h1 {
     font-weight: 600;
     font-size: 1.75rem;
     line-height: 2.5rem;
-  
   }
- 
-  .meet p{
-      font-size: 1rem;
-      line-height: 2.1rem;
-    
-    }
-  
-    
-  .profile img{
-      object-fit: cover;
-      width: 80%;
-    }
-  
-  .profile h6{
+
+  .meet p {
+    font-size: 1rem;
+    line-height: 2.1rem;
+  }
+
+  .profile img {
+    object-fit: cover;
+    width: 80%;
+  }
+
+  .profile h6 {
     font-size: 1rem;
   }
-  .profile p{
+  .profile p {
     font-size: 0.775rem;
     line-height: 2.1rem;
   }
 }
 
-
-
-@media (min-width:768px ) and (max-width: 990px){
-
-  .bg1{
+@media (min-width: 768px) and (max-width: 990px) {
+  .bg1 {
     background: url(../imgs/wecreate/worldmap\ 1.svg);
     background-position: top right;
     background-repeat: no-repeat;
   }
-  .bg2{
+  .bg2 {
     background: url(../imgs/wecreate/worldmap\ 2.svg);
     background-position: top left;
     background-repeat: no-repeat;
   }
-  .contt{
+  .contt {
     height: 100%;
   }
-  .we-create{
+  .we-create {
     height: 25rem;
   }
-  .we-create h1{
+  .we-create h1 {
     font-size: 2.75rem;
     line-height: 3.5rem;
   }
- 
-   .we-create p{
+
+  .we-create p {
     font-size: 1rem;
     line-height: 1.5rem;
-  } 
-  .we-create-image{
+  }
+  .we-create-image {
     object-fit: cover;
     width: 100%;
     height: 15rem;
     margin-top: 6rem;
-  } 
+  }
 
-
-
-  .container-{
+  .container- {
     height: 20rem;
     margin-top: 6rem;
     background-color: var(--primary-900);
   }
-  .container- .p{
+  .container- .p {
     color: var(--primary-100);
     font-weight: 700;
-   
+
     font-size: 0.7rem;
-    
+
     text-align: center;
   }
-  .container- p{
+  .container- p {
     color: var(--primary-100);
     font-weight: 500;
     font-size: 1rem;
     text-align: center;
-    
   }
-  .container- h1{
+  .container- h1 {
     color: var(--primary-100);
     font-weight: 800;
     font-size: 1.7rem;
     line-height: 3rem;
     text-align: center;
-    
+
     margin-bottom: -0.2rem;
   }
-  .container- h2{
+  .container- h2 {
     color: var(--primary-100);
     font-size: 2.7rem;
     margin-bottom: 1rem;
     text-align: center;
   }
-  
-  
-  .meet h1{
+
+  .meet h1 {
     font-weight: 600;
     font-size: 2.75rem;
     line-height: 2.5rem;
-  
   }
- 
-  .meet p{
-      font-size: 1rem;
-      line-height: 2.1rem;
-    
-    }
-  
-    
- 
-  .profile h6{
+
+  .meet p {
+    font-size: 1rem;
+    line-height: 2.1rem;
+  }
+
+  .profile h6 {
     font-size: 1rem;
   }
-  .profile p{
+  .profile p {
     font-size: 0.775rem;
     line-height: 2.1rem;
   }
 }
-
-
 
 .t_name {
   color: var(--bird-blue-grey-100);
@@ -1502,16 +1410,15 @@ padding-bottom: 3rem;
 }
 /**************************CONTACT US STYLING********************/
 
-
 .contact_us {
-  background: linear-gradient(#144b63f5, #144b63f5, #144b63f6), url(../imgs/contact/bgimage.png);
+  background: linear-gradient(#144b63f5, #144b63f5, #144b63f6),
+    url(../imgs/contact/bgimage.png);
 
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
   height: 496px;
-
 }
 
 .contact_us div {
@@ -1522,7 +1429,6 @@ padding-bottom: 3rem;
 
 .contact_sub_header {
   color: var(--white);
-
 }
 
 .contact_sub_header {
