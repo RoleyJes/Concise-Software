@@ -111,14 +111,22 @@ a {
 }
 
 .ready_to_take h1 {
-  max-width: 37rem;
+  max-width: 57rem;
+  font-family: 'Manrope';
+  font-style: normal;
   font-weight: 800;
+  font-size: 64px;
+  line-height: 120%;
+  letter-spacing: -0.02em;
 }
 
 .ready_to_take p {
   color: var(--bird-blue-grey-100);
   max-width: 30rem;
+  font-style: normal;
   font-weight: 500;
+  font-size: 24px;
+  line-height: 140%;
 }
 
 .ready_to_take .butn {
